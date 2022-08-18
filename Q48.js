@@ -12,6 +12,7 @@ console.log(contiguousSubarray([34, -50, 42, 14, -5, 86]));
 console.log(contiguousSubarray([-5, -1, -8, -9]));
 console.log(contiguousSubarray([4, 10, -9, -1]));
 
+// O(n)
 function contiguousSubarray (arr) {
     let highestTotal = 0;
     arr.reduce(

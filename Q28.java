@@ -30,6 +30,7 @@ public class Q28 {
         }
     }
 
+    // Time complexity: O(n)
     public static String[] justifyLines (String[] words, int k) {
         ArrayList<String> lines = new ArrayList<>();
 

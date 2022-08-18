@@ -14,9 +14,8 @@ public class Q2 {
         }
     }
 
-    
+    // O(2n)
     public static int[] withDivision(int[] array) {
-        // O(2n)
         int productTotal = 1;
         for (int i : array) {
             productTotal *= i;
