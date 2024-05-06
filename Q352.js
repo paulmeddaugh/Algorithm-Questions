@@ -210,12 +210,6 @@ function getSquare (grid, x, y) {
         : grid[y][x];
 }
 
-function getRotationallySymmetricSquare(grid, x, y) {
-    const xComplement = getComplement(x, grid.length);
-    const yComplement = getComplement(y, grid.length);
-    return grid[yComplement][xComplement];
-}
-
 function isReachable (grid, x, y) {
     if (getSquare(grid, x, y - 1)?.getColor() === 'white') return true;
     if (getSquare(grid, x + 1, y)?.getColor() === 'white') return true;
