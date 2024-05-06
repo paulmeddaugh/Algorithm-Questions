@@ -55,10 +55,13 @@ function normalize (sentence) {
         }, []);
 }
 
+// Time complexity: O(m + n + b) where m is meaning word count, n is sentence word count, and b is meaning count
+// Space complexity: O(m)
+// This could be faster by pre-processing the word meanings into mappings of all the words in meanings beforehand, eliminating 'm'
 function determineAmbiguousWordFromSentence(sentence, word) {
     if (!words[word]) return 'No definition found for word.';
 
-    // converts meanings into a word mapping to the meaning indices
+    // O(m): converts meanings into a word mapping to the meaning indices
     const meaningList = words[word], meaningWordMap = new Map();
     meaningList?.forEach((meaning, i) => {
         const meaningWords = String(meaning).split(' ');
@@ -79,6 +82,7 @@ function determineAmbiguousWordFromSentence(sentence, word) {
         });
     }
 
+    // O(b)
     const topMeaningObj = meaningsCount.reduce((prevObj, count, index) => {
         return prevObj.count > count ? prevObj : { index, count };
     }, { index: 0, count: 0 })
