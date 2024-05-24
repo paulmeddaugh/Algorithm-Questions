@@ -1,0 +1,15 @@
+/Users/Paul/Projects/algorithms/Q20/bin/Debug/net8.0/Q20
+/Users/Paul/Projects/algorithms/Q20/bin/Debug/net8.0/Q20.deps.json
+/Users/Paul/Projects/algorithms/Q20/bin/Debug/net8.0/Q20.runtimeconfig.json
+/Users/Paul/Projects/algorithms/Q20/bin/Debug/net8.0/Q20.dll
+/Users/Paul/Projects/algorithms/Q20/bin/Debug/net8.0/Q20.pdb
+/Users/Paul/Projects/algorithms/Q20/obj/Debug/net8.0/Q20.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Paul/Projects/algorithms/Q20/obj/Debug/net8.0/Q20.AssemblyInfoInputs.cache
+/Users/Paul/Projects/algorithms/Q20/obj/Debug/net8.0/Q20.AssemblyInfo.cs
+/Users/Paul/Projects/algorithms/Q20/obj/Debug/net8.0/Q20.csproj.CoreCompileInputs.cache
+/Users/Paul/Projects/algorithms/Q20/obj/Debug/net8.0/Q20.sourcelink.json
+/Users/Paul/Projects/algorithms/Q20/obj/Debug/net8.0/Q20.dll
+/Users/Paul/Projects/algorithms/Q20/obj/Debug/net8.0/refint/Q20.dll
+/Users/Paul/Projects/algorithms/Q20/obj/Debug/net8.0/Q20.pdb
+/Users/Paul/Projects/algorithms/Q20/obj/Debug/net8.0/Q20.genruntimeconfig.cache
+/Users/Paul/Projects/algorithms/Q20/obj/Debug/net8.0/ref/Q20.dll
