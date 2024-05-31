@@ -1,0 +1,15 @@
+/Users/Paul/Projects/algorithms/Q23/bin/Debug/net8.0/Q23
+/Users/Paul/Projects/algorithms/Q23/bin/Debug/net8.0/Q23.deps.json
+/Users/Paul/Projects/algorithms/Q23/bin/Debug/net8.0/Q23.runtimeconfig.json
+/Users/Paul/Projects/algorithms/Q23/bin/Debug/net8.0/Q23.dll
+/Users/Paul/Projects/algorithms/Q23/bin/Debug/net8.0/Q23.pdb
+/Users/Paul/Projects/algorithms/Q23/obj/Debug/net8.0/Q23.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Paul/Projects/algorithms/Q23/obj/Debug/net8.0/Q23.AssemblyInfoInputs.cache
+/Users/Paul/Projects/algorithms/Q23/obj/Debug/net8.0/Q23.AssemblyInfo.cs
+/Users/Paul/Projects/algorithms/Q23/obj/Debug/net8.0/Q23.csproj.CoreCompileInputs.cache
+/Users/Paul/Projects/algorithms/Q23/obj/Debug/net8.0/Q23.sourcelink.json
+/Users/Paul/Projects/algorithms/Q23/obj/Debug/net8.0/Q23.dll
+/Users/Paul/Projects/algorithms/Q23/obj/Debug/net8.0/refint/Q23.dll
+/Users/Paul/Projects/algorithms/Q23/obj/Debug/net8.0/Q23.pdb
+/Users/Paul/Projects/algorithms/Q23/obj/Debug/net8.0/Q23.genruntimeconfig.cache
+/Users/Paul/Projects/algorithms/Q23/obj/Debug/net8.0/ref/Q23.dll
