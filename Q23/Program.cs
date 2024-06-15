@@ -12,6 +12,10 @@
  * [f, f, f, f],
  * [f, f, f, f]]
  * and start = (3, 0) (y, x; bottom left) and end = (0, 0) (y, x; top left), the minimum number of steps required to reach the end is 7, since we would need to go through (1, 2) because there is a wall everywhere else on the second row.
+ *
+ * -----------
+ *
+ * Largely utilized this resource for AStar algorithm: https://www.youtube.com/watch?v=i0x5fj4PqP4
  */
 class Q23 {
     static int? FindMinimumNumberOfStepsForPath(bool[][] board, int startX, int startY, int endX, int endY) {

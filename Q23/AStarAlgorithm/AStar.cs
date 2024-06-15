@@ -16,7 +16,7 @@ class AStar(bool[][] board)
         while (toSearch.Count > 0) {
             var current = toSearch[0];
             foreach (var t in toSearch) {
-                if (t.F < current.F || t.F == current.F && t.H < current.H) {
+                if (t.F <= current.F && t.H < current.H) {
                     current = t;
                 }
             }
