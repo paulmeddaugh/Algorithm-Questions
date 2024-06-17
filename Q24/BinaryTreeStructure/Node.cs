@@ -12,6 +12,6 @@ class Node (int id) {
     public void SetParentNode (Node? node) => ParentNode = node;
 
     override public string ToString () {
-        return $"Node({id}, {IsLockable}, {IsLocked})";
+        return $"{id}";
     }
 }

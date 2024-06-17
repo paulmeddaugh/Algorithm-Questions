@@ -17,8 +17,16 @@ class Q24 {
         BinaryTree bt = new([19, 3, 12, 24, 1, 8, 20, 40]);
         bt.Lock(12);
         bt.Lock(8);
-        Console.WriteLine($"8 locked: {bt.IsLocked(8)}");
         bt.Unlock(8);
-        bt.PrintNodeStructure();
+        // bt.PrintTree();
+
+        BinaryTree bt2 = new([60, 12, 92, 29, 4, 128, 50, 52, 91, 3, 28, 35, 10, 84]);
+        bt2.Lock(92);
+        bt2.Lock(50);
+        Console.WriteLine($"92 locked: {bt2.IsLocked(92)}");
+        Console.WriteLine($"50 locked: {bt2.IsLocked(50)}");
+        Console.WriteLine($"52 locked: {bt2.IsLocked(52)}");
+        bt2.Unlock(50);
+        bt2.PrintTree();
     }
 }
